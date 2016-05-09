@@ -6,15 +6,7 @@
             var InputDirectives;
             (function (InputDirectives) {
                 (function (InputType) {
-                    InputType[InputType["email"] = 'email'] = "email";
-                    InputType[InputType["date"] = 'date'] = "date";
-                    InputType[InputType["number"] = 'number'] = "number";
-                    InputType[InputType["text"] = 'text'] = "text";
-                    InputType[InputType["password"] = 'password'] = "password";
-                    InputType[InputType["ip"] = 'ip'] = "ip";
-                    InputType[InputType["checkbox"] = 'checkbox'] = "checkbox";
-                    InputType[InputType["phone"] = 'phone'] = "phone";
-                    InputType[InputType["datePicker"] = 'datePicker'] = "datePicker";
+                   
                 })(InputDirectives.InputType || (InputDirectives.InputType = {}));
                 var InputType = InputDirectives.InputType;
             })(InputDirectives = Directives.InputDirectives || (Directives.InputDirectives = {}));
@@ -46,7 +38,7 @@
                                 label: '@',
                                 isDisabled:'='
                             };
-                           // this.controller = 'TextController';
+                            this.controller = 'TextController';
                             this.controllerAs = 'vm';
                             this.bindToController = true;
                             this.restrict = 'E';
