@@ -1,0 +1,9 @@
+﻿<p class="input-group">
+    <input type="text" class="form-control" uib-datepicker-popup ng-model="vm.bindTo" is-open="vm.Opened" close-text="Close" name="{{vm.bindingOptions.name}}">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" ng-click="vm.ToggleDatePicker()"><i class="glyphicon glyphicon-calendar"></i></button>
+    </span>
+</p>
+<div class="help-block">
+    <p ng-message="required">This field is required</p>
+</div>
