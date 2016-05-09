@@ -46,7 +46,7 @@
                                 label: '@',
                                 isDisabled:'='
                             };
-                            this.controller = 'TextController';
+                           // this.controller = 'TextController';
                             this.controllerAs = 'vm';
                             this.bindToController = true;
                             this.restrict = 'E';
